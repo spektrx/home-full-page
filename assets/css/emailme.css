@@ -9,11 +9,19 @@
     font-weight: normal;
 }
 
+.email__me {
+    margin: 0 auto;
+    padding: 112px 64px;
+    width: 1440px;
+    display: flex;
+    justify-content: space-between;
+}
+
 .email__me-form {
     display: flex;
     flex-direction: column;
     width: 616px;
-    height: 518px;
+    height: 568px;
 }
 
 .email__me-form-text {
@@ -28,9 +36,35 @@
     text-decoration: underline;
 }
 
-.email__me-form-privacy-policy {
+.email__me-form-subtext {
+    font-size: 18px;
+    font-weight: 500;
+    margin-top: 24px;
+}
+
+.email__me-form-name-text {
+    margin-top: 32px;
+}
+
+.email__me-form-name-input {
+    margin-top: 8px;
+    width: 616px;
+    height: 48px;
+}
+
+.email__me-form-email-text {
+    margin-top: 24px;
+}
+
+.email__me-form-email-input {
+    margin-top: 8px;
+    width: 616px;
+    height: 48px;
+}
+
+.email__me-form-checkbox {
+    margin-top: 24px;
     display: flex;
-    flex-direction: row;
 }
 
 .email__me-form-text-accept {
@@ -56,34 +90,10 @@
     margin-top: 24px;
 }
 
-.email__me-form-name-input {
-    margin-top: 8px;
-    width: 616px;
-    height: 48px;
-}
-
-.email__me-form-email-input {
-    margin-top: 8px;
-    width: 616px;
-    height: 48px;
-}
-
-.email__me-form-email-text {
-    margin-top: 24px;
-}
-
-.email__me-form-name-text {
-    margin-top: 32px;
-}
 
 
-.email__me-form-checkbox {
-    margin-top: 24px;
-    display: flex;
-}
 
-.email__me-form-subtext {
-    font-size: 18px;
-    font-weight: medium;
-    margin-top: 24px;
-}
+
+
+
+

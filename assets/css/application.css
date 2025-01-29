@@ -1,27 +1,68 @@
 .application__field{
-
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto;
+    gap: 80px;
+    padding: 112px 64px;
+    max-width: 1440px;
 }
 
 
 .application__head__text{
-
+    font-size: 48px;
+    line-height: 120%;
 }
 
 .head__underline{
-
+    font-size: 48px;
+    line-height: 120%;
+    text-decoration: underline;
 }
 
 .application__content{
-
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
 
 }
 
 .application__subhead{
-
+    font-size: 32px;
+    line-height: 150%;
 
 }
 
 .application__content__actions{
-
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
 }
 
+.actions__form{
+    height: 48px;
+    display: flex;
+    gap: 16px;
+}
+
+
+.text__field{
+    flex: 1;
+}
+
+.tel__field{
+    flex: 1;
+}
+
+.submit__button{
+    flex: 0.6;
+}
+
+.Privacy__Policy{
+    font-size: 12px;
+    line-height: 150%;
+}
+
+.privacy__policy{
+    font-size: 12px;
+    line-height: 150%;
+}
