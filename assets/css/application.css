@@ -5,12 +5,16 @@
     gap: 80px;
     padding: 112px 64px;
     max-width: 1440px;
+    justify-content: space-around;
 }
 
 
 .application__head__text{
     font-size: 48px;
     line-height: 120%;
+    max-width: 616px;
+    display: flex;
+    flex-direction: column;
 }
 
 .head__underline{
@@ -23,6 +27,7 @@
     display: flex;
     flex-direction: column;
     gap: 16px;
+    max-width: 616px;
 
 }
 
