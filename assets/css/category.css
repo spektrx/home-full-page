@@ -1,0 +1,52 @@
+.category-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 112px;
+}
+
+.category-container .title{
+    font-size: 56px;
+    
+}
+
+.category-container .subtitle{
+    font-size: 20px;
+    margin-top: 24px;
+    
+}
+
+.category-container .img-container{
+    display: flex;
+    flex-direction: row;
+    gap: 32px;
+    max-width: 1312px;
+    flex-wrap: wrap;
+    margin-top: 112px
+}
+
+.category-container .img-container .img-item{
+    display: flex;
+    flex-direction: column;
+    max-width: 304px;
+}
+
+
+.category-container .img-container .img-item .to-house-btn{
+    background: rgb(255,204,83);
+background: linear-gradient(90deg, rgba(255,204,83,1) 49%, rgba(255,204,83,0.46551120448179273) 100%);
+    width: 100%;
+    height: 60px;
+    color: black;
+    margin-top: 32px;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    font-size: 24px;
+    font-weight: bold;
+    text-decoration: none;
+
+    
+}

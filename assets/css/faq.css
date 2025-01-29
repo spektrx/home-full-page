@@ -1,0 +1,66 @@
+.faq-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 112px;
+}
+
+.faq-container .title{
+    font-size: 56px;
+    
+}
+
+.faq-container .subtitle{
+    font-size: 20px;
+    margin-top: 24px;
+    
+}
+
+
+
+
+
+
+
+
+.accordion-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 112px;
+  
+
+}
+
+.accordion {
+    border: 1px;
+    background-color: black;
+    color: rgb(255, 255, 255);
+    border-bottom: #ffcc52 solid;
+    
+   
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    text-align: left;
+    
+    outline: none;
+    transition: 0.4s;
+  }
+  
+  /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+  .active, .accordion:hover {
+    background-color: #ffcc52   ;
+    width: 100%;
+    
+  }
+  
+  /* Style the accordion panel. Note: hidden by default */
+  .panel {
+    padding: 0 18px;
+    
+    display: none;
+    overflow: hidden;
+  }

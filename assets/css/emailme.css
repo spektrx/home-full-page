@@ -1,0 +1,89 @@
+/* .email__me-image {
+    width: 616px;
+    height: 518px;
+} */
+
+* {
+    font-size: 16px;
+    line-height: 150%;
+    font-weight: normal;
+}
+
+.email__me-form {
+    display: flex;
+    flex-direction: column;
+    width: 616px;
+    height: 518px;
+}
+
+.email__me-form-text {
+    font-weight: bold;
+    font-size: 56px;
+    line-height: 120%;
+}
+
+.email__me-form-text-clickable {
+    font-weight: bold;
+    font-size: 56px;
+    text-decoration: underline;
+}
+
+.email__me-form-privacy-policy {
+    display: flex;
+    flex-direction: row;
+}
+
+.email__me-form-text-accept {
+    margin-left: 8px;
+}
+
+.email__me-form-privacy-policy-text {
+    color: #fff;
+    text-decoration: underline;
+}
+
+.email__me-form-button-send {
+    text-decoration: none;
+    font-weight: medium;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    width: 139px;
+    height: 48px;
+    background: rgb(255,204,83);
+    background: linear-gradient(90deg, rgba(255,204,83,1) 49%, rgba(255,204,83,0.46551120448179273) 100%);
+    margin-top: 24px;
+}
+
+.email__me-form-name-input {
+    margin-top: 8px;
+    width: 616px;
+    height: 48px;
+}
+
+.email__me-form-email-input {
+    margin-top: 8px;
+    width: 616px;
+    height: 48px;
+}
+
+.email__me-form-email-text {
+    margin-top: 24px;
+}
+
+.email__me-form-name-text {
+    margin-top: 32px;
+}
+
+
+.email__me-form-checkbox {
+    margin-top: 24px;
+    display: flex;
+}
+
+.email__me-form-subtext {
+    font-size: 18px;
+    font-weight: medium;
+    margin-top: 24px;
+}
