@@ -1,0 +1,98 @@
+
+
+section {
+    margin: 0 auto;
+    max-width: 1440px;
+    background: black;
+    color: white;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+/* .Houses {
+
+} */
+
+.btn-yellow {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 17px 50.5px;
+    background: #FFCC53;
+    color: black;
+    font-size: 24px;
+    line-height: 150%;
+    font-weight: 700;
+    text-decoration: none;
+    background: linear-gradient(90deg, rgba(255, 204, 83, 1) 49%, rgba(255, 204, 83, 0.46551120448179273) 100%);
+}
+
+
+.page-title-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+}
+
+.page-title__left-block {
+    width: 100%;
+}
+
+.page-title__right-block {
+    width: 100%;
+    background: rgba(0, 0, 0, 0.8) url(/assets/img/asdasd.svg);
+    background-blend-mode: darken;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+/*  background: rgba(0, 0, 0, 0.6) url(/assets/img/bigh.svg);
+    background-blend-mode: darken; */
+
+.page-title__content {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.page-title__content-head {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.page-title__content-head__title .Houses {
+    font-size: 171px;
+    line-height: 120%;
+}
+
+.page-title__content-head__title .from {
+    font-size: 56px;
+    line-height: 120%;
+}
+
+.page-title__content-head__title {
+    color: #FFCC53;
+    font-size: 56px;
+    line-height: 120%;
+}
+
+.page-title__content-head__text {
+    font-size: 32px;
+}
+
+.page-title__content-head__text .underlined {
+    font-size: 32px;
+    color: #FFCC53;
+    text-decoration: underline;
+}
+
+.page-title__content-bottom {
+    display: flex;
+    padding-top: 16px;
+}
+

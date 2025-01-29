@@ -2,14 +2,12 @@
     width: 616px;
     height: 518px;
 } */
+@import url(https://db.onlinewebfonts.com/c/e26febc1e5c53965a880733ac0bc2864?family=Acrom+W00+Light);
 
-* {
+.email__me {
     font-size: 16px;
     line-height: 150%;
     font-weight: normal;
-}
-
-.email__me {
     margin: 0 auto;
     padding: 112px 64px;
     width: 1440px;
@@ -17,11 +15,21 @@
     justify-content: space-between;
 }
 
+.email__me-image {
+    width: 616px;
+    height: 518px;
+}
+
 .email__me-form {
     display: flex;
     flex-direction: column;
     width: 616px;
-    height: 568px;
+}
+
+.email__me-form-head-text {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
 }
 
 .email__me-form-text {
@@ -39,25 +47,33 @@
 .email__me-form-subtext {
     font-size: 18px;
     font-weight: 500;
-    margin-top: 24px;
 }
 
-.email__me-form-name-text {
+.email__me-form-inputs {
     margin-top: 32px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.email__me-form-name-input-box {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
 }
 
 .email__me-form-name-input {
-    margin-top: 8px;
     width: 616px;
     height: 48px;
 }
 
-.email__me-form-email-text {
-    margin-top: 24px;
+.email__me-form-email-input-box {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
 }
 
 .email__me-form-email-input {
-    margin-top: 8px;
     width: 616px;
     height: 48px;
 }
@@ -72,25 +88,97 @@
 }
 
 .email__me-form-privacy-policy-text {
+    font-size: 14px;
     color: #fff;
     text-decoration: underline;
 }
 
-.email__me-form-button-send {
-    text-decoration: none;
-    font-weight: medium;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: black;
-    width: 139px;
-    height: 48px;
-    background: rgb(255,204,83);
-    background: linear-gradient(90deg, rgba(255,204,83,1) 49%, rgba(255,204,83,0.46551120448179273) 100%);
-    margin-top: 24px;
+@media (max-width: 1440px) and (min-width: 1025px) {
+    .email__me {
+         width: 90%; /* Уменьшаем общую ширину контейнера */
+         padding: 80px 40px; /* Уменьшаем отступы */
+    }
+    .email__me-image {
+         width: 48%; /* Уменьшаем ширину изображения */
+         height: auto;
+     }
+ 
+    .email__me-form {
+         width: 48%; /* Уменьшаем ширину формы */
+    }
+ 
+     .email__me-form-name-input, .email__me-form-email-input {
+         width: 100%; /* Ensure inputs take the full width of the form */
+     }
+    
+    .email__me-form-text {
+         font-size: 48px; /*  Уменьшаем размер шрифта заголовка */
+    }
+    .email__me-form-text-clickable{
+         font-size: 48px; /*  Уменьшаем размер шрифта кликабельного текста */
+    }
+ }
+ @media (max-width: 1024px) {
+     .email__me {
+         display: flex;
+         flex-direction: column;
+         width: auto; /* Allow width to adjust to content */
+         padding: 64px 32px; /* Adjusted padding */
+     }
+ 
+     .email__me-image {
+         width: 100%; /* Take full width of container */
+         height: auto; /* Maintain aspect ratio */
+         max-width: 616px; /* Ensure it doesn't get larger than original size */
+         margin: 0 auto; /* Center the image */
+     }
+ 
+     .email__me-form {
+         width: 100%;
+         max-width: 616px; /* Ensure form doesn't exceed original width */
+         margin: 32px auto 0; /* Add margin to separate from image, center it */
+     }
+     .email__me-form-name-input, .email__me-form-email-input{
+         width: 100%;
+     }
+ }
+ 
+
+@media (max-width: 768px) {
+    .email__me {
+        padding: 32px 16px;
+    }
+    
+    .email__me-form-text {
+      font-size: 40px;
+    }
+    .email__me-form-text-clickable{
+        font-size: 40px;
+    }
+     .email__me-form-subtext{
+        font-size: 16px;
+     }
+
+    .email__me-form-inputs{
+        margin-top: 16px;
+    }
+    .email__me-form-checkbox {
+    margin-top: 16px;
+    }
 }
 
-
+@media (max-width: 480px) {
+    .email__me-form-text {
+      font-size: 32px;
+    }
+    .email__me-form-text-clickable{
+        font-size: 32px;
+    }
+    
+    .email__me-form-subtext{
+        font-size: 14px;
+     }
+}
 
 
 

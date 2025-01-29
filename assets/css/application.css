@@ -1,15 +1,18 @@
-.application__field{
+.application__field {
     display: flex;
     flex-direction: row;
     margin: 0 auto;
     gap: 80px;
     padding: 112px 64px;
-    max-width: 1440px;
-    justify-content: space-around;
+    max-width: none;
+    justify-content: space-between;
+    background: rgba(0, 0, 0, 0.7) url(/assets/img/application-background.svg);
+    background-blend-mode: darken;
+    width: 100%;
+    background-size: cover;
 }
 
-
-.application__head__text{
+.application__head__text {
     font-size: 48px;
     line-height: 120%;
     max-width: 616px;
@@ -17,57 +20,132 @@
     flex-direction: column;
 }
 
-.head__underline{
+.head__underline {
     font-size: 48px;
     line-height: 120%;
     text-decoration: underline;
+    color: #FFCC53;
 }
 
-.application__content{
+.application__content {
     display: flex;
     flex-direction: column;
-    gap: 16px;
+    gap: 24px;
     max-width: 616px;
-
 }
 
-.application__subhead{
+.application__subhead {
     font-size: 32px;
     line-height: 150%;
-
 }
 
-.application__content__actions{
+.application__content__actions {
     display: flex;
     flex-direction: column;
     gap: 16px;
 }
 
-.actions__form{
+.actions__form {
     height: 48px;
     display: flex;
     gap: 16px;
 }
 
+input {
+    border: 0;
+    padding: 12px;
+}
 
-.text__field{
+.text__field {
     flex: 1;
 }
 
-.tel__field{
+.tel__field {
     flex: 1;
 }
 
-.submit__button{
+.submit__button {
     flex: 0.6;
+    background: linear-gradient(90deg, rgba(255,204,83,1) 49%, rgba(255,204,83,0.46551120448179273) 100%);
+    color: black;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.Privacy__Policy{
+.submit__button:hover {
+    background: rgb(170, 136, 55);
+}
+
+.Privacy__Policy {
     font-size: 12px;
     line-height: 150%;
 }
 
-.privacy__policy{
+.privacy__policy {
     font-size: 12px;
     line-height: 150%;
+    display: flex;
+}
+
+
+
+@media (max-width: 1024px) {
+    .application__field {
+        padding: 80px 40px;
+        gap: 40px; 
+    }
+
+    .application__head__text,
+    .head__underline{
+        font-size: 40px;
+       
+    }
+
+    .application__content {
+        max-width: 500px; 
+    }
+
+     .application__subhead {
+         font-size: 28px; 
+      }
+}
+
+
+@media (max-width: 768px) {
+    .application__field {
+        flex-direction: column; 
+        padding: 40px 20px; 
+        gap: 16px; 
+        background-repeat: no-repeat;
+    }
+    .application__head__text,
+    .head__underline {
+       font-size: 32px; 
+       flex-direction: row;
+    }
+
+    .application__content{
+        max-width: 100%; 
+    }
+
+    .application__subhead {
+         font-size: 16px; 
+    }
+
+    .actions__form {
+        flex-direction: column; 
+        height: auto; 
+        gap: 10px;
+    }
+    
+    input,
+     .submit__button{
+        padding: 10px;
+    }
+
+    .submit__button {
+        flex: 1;
+    }
 }

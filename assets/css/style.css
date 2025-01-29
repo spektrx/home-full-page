@@ -1,10 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap'); 
- 
+@import url(https://db.onlinewebfonts.com/c/258f25658f1456fd0206d4fb09b637fe?family=Acrom+W00+Regular);
+
 * { 
     margin: 0; 
     padding: 0; 
     box-sizing: border-box; 
-    font-family: 'Roboto', sans-serif; 
+    font-family: "Acrom W00 Regular", sans-serif; 
     line-height: 150%; 
     font-size: 14px; 
     
@@ -23,6 +23,7 @@ body {
 a{
     color: #FFCC53;
     text-decoration: underline;
+    font-size: 20px;
 }
  
 /* Basic elements */ 
@@ -54,5 +55,25 @@ a{
 .btn-dark:hover { 
     opacity: 0.5; 
 } 
+
+.hover-button {
+    text-decoration: none;
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    width: 139px;
+    height: 48px;
+    background: rgb(255,204,83);
+    background: linear-gradient(90deg, rgba(255,204,83,1) 49%, rgba(255,204,83,0.46551120448179273) 100%);
+    margin-top: 24px;
+}
+
+.hover-button:hover {
+    background: rgb(170, 136, 55);
+}
+
+
  
 /* Basic elements */ 

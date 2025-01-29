@@ -3,7 +3,7 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    margin-top: 112px;
+    padding: 112px 64px;
 }
 
 .category-container .title{
@@ -49,4 +49,16 @@ background: linear-gradient(90deg, rgba(255,204,83,1) 49%, rgba(255,204,83,0.465
     text-decoration: none;
 
     
+}
+
+.category-container .img-container .img-item .to-house-btn:hover{
+    background: rgb(170, 136, 55);
+    
+}
+
+
+@media (max-width: 768px) {
+    body {
+        font-size: 14px;
+    }
 }
