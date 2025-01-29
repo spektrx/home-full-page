@@ -115,11 +115,13 @@
     border-bottom: 1px solid black;
     color: #7a6228;
 
+
 }
 
 .parentlil {
-    max-width: 225px;
+    max-width: 100%;
     flex-direction: column;
+    
 
 }
 
@@ -129,6 +131,7 @@
     height: 477px;
     background: black;
     border-top: none;
+    border-bottom: 1px solid #ffcc52;
     
 }
 
@@ -185,6 +188,7 @@
     gap: 16px;
     display: flex;
     flex-direction: column;
+    border-bottom: 1px solid #ffcc52;
 }
 
 .right-side-title{
@@ -239,6 +243,8 @@
 .hidden {
     display: none;
     background-color: black;
+    height: 477px;
+
 }
 
 
